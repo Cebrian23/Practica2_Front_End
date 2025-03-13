@@ -1,0 +1,23 @@
+.centrar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: wheat;
+}
+
+.error_ch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: red;
+}
+
+button{
+  a{
+    color: black;
+  }
+}
