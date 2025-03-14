@@ -21,3 +21,10 @@ button{
     color: black;
   }
 }
+
+button:active{
+  background: black;
+  a{
+    color:whitesmoke
+  }
+}

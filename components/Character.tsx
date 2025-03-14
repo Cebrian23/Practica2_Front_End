@@ -27,7 +27,6 @@ const Character: FunctionalComponent<Props> = (props) => {
     return(
         <>
             <h1>Page of {character.name}</h1>
-            <hr></hr>
             <div>
                 <div>
                     <strong>{character.name}'s page was created on: </strong>{character.created}
@@ -36,7 +35,6 @@ const Character: FunctionalComponent<Props> = (props) => {
                     <strong>{character.name}'s page last update was on: </strong>{character.edited}
                 </div>
             </div>
-            <hr></hr>
             <div>
                 <h2>{character.name} info:</h2>
                 <div>
@@ -51,7 +49,6 @@ const Character: FunctionalComponent<Props> = (props) => {
                     <li><strong>Character's URL: </strong><a href={character.url} target="_blank">{character.url}</a></li>
                 </div>
             </div>
-            <hr></hr>
             <div>
                 <h2>{character.name} belongs to the specie/s: </h2>
                 <div>
@@ -64,7 +61,6 @@ const Character: FunctionalComponent<Props> = (props) => {
                     }
                 </div>
             </div>
-            <hr></hr>
             <div>
                 <h2>Films where {character.name} appears:</h2>
                 <div>
@@ -77,7 +73,6 @@ const Character: FunctionalComponent<Props> = (props) => {
                     }
                 </div>
             </div>
-            <hr></hr>
             <div>
                 <h2>Starships that {character.name} has piloted: </h2>
                 <div>
@@ -90,7 +85,6 @@ const Character: FunctionalComponent<Props> = (props) => {
                     }
                 </div>
             </div>
-            <hr></hr>
             <div>
                 <h2>Vehicle that {character.name} has piloted: </h2>
                 <div>
