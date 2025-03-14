@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   background: wheat;
 }
 
@@ -16,15 +16,7 @@
   color: red;
 }
 
-button{
-  a{
-    color: black;
-  }
-}
-
 button:active{
   background: black;
-  a{
-    color:whitesmoke
-  }
+  color:whitesmoke
 }

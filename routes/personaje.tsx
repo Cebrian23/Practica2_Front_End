@@ -65,13 +65,14 @@ const Page = (props: PageProps<Data>) =>{
     else{
         return(
             <div class="centrar">
-                <h2 class="error_ch">
-                    No se ha encontrado el personaje
-                    <hr></hr>
-                    <button type="submit" class="color_negro">
-                        <a href="/">Volver al inicio</a>
-                    </button>
-                </h2>
+                <form method="get" action={`/`}>
+                    <h2 class="error_ch">
+                        No se ha encontrado el personaje
+                        <hr></hr>
+                        <button type="submit" class="color_negro">Volver al inicio</button>
+                    </h2>
+                </form>
+                
             </div>
         );
     }

@@ -1,17 +1,14 @@
 
 import { FunctionalComponent } from "preact";
-import { useSignal } from "@preact/signals";
 
 const Formulary: FunctionalComponent = () => {
-    const name = useSignal<string>("");
-    
-    return(
+  return(
       <div>
-        <form method="get" class="centrar">
-          <input type="text" name="name" defaultValue="" onInput={(e) => name.value = e.currentTarget.value}/>
-          <button type="submit">
-            <a href={`/personaje?name=${name}`}>Buscar</a>
-          </button>
+        <form method="get" action={`/personaje`} class="centrar">
+          <h1>Inserta el nombre del personaje</h1>
+          <input type="text" name="name" defaultValue=""/>
+          <span/>
+          <button type="submit">Buscar</button>
         </form>
       </div>
     );
